@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ body{
+    color: #faf9f9;
+    background-color: #201313;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+ }
+ .ne-to{
+     color: #faf9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+ }
+
+.container{
+    margin-top: 120px;
+    color: #faf9f9;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+}
+
+
+.box-one{
+    background-color: yellow;
+    color:  #201313;
+    border-radius: 50px;
+    padding: 9px 15px 9px 15px;
+   text-align: left;
+   border: none;
+}
+
+.secret-button{
+    background-color: none;
+    text-emphasis: none;
+    border-radius: 300px;
+    text-align: left;
+    padding: 9px 15px 9px 15px; 
+    border: none;
+    margin: 20px 30px 20px 30px;
+}
+  
+.killer-pull{
+    text-decoration-line: display: grid;;
+    text-decoration: dotted;
+}
+ 
+.jo-jo{
+    color: #faf9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: dotted;
+}
