@@ -11,51 +11,50 @@
     text-align: left;
     padding-left: 300px;
     padding-right: 300px;
+    font-family: Arial, Helvetica, sans-serif;
     
  }
  .ne-to{
      color: #faf9f9;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+    font-weight:700px;
     text-align: left;
     margin-top: 250px;
+    text-align:start;
+    
  }
 
-.container{
-    margin-top: 120px;
-    color: #faf9f9;
-    font-family: Arial, Helvetica, sans-serif;
-   font-size: 20px;
-   font-weight: 300;
+a{
+    text-decoration: none !important;
+    color:white;
 }
-
 
 .box-one{
     background-color: yellow;
     color:  #201313;
-    font-size: medium;
-    border-radius: 100px;
+ font-family: Arial, Helvetica, sans-serif;
+    border-radius: 70px;
     padding: 30px 60px;
    text-align: left;
    border: none;
-      text-decoration: none;
+   text-decoration: none !important;
 }
 
 .secret-button{
-    background-color: none;
+    background-color: #201313;
     font-size: small;
     text-emphasis: none;
-    border-radius: 300px;
+    border-radius: 100px;
     text-align: left;
     padding:  30px 60px; 
-    border: none;
-    margin: 20px 30px 20px 30px;
-    text-decoration: none;
+    border:1px solid !important;
+    text-decoration: none !important;
 }
   
 .killer-pull{
-    text-decoration-line: display: grid;;
-    text-decoration: dotted;
+    text-decoration: none !important;
+    font-size: small;
 }
  
 .jo-jo{
@@ -63,4 +62,53 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     text-decoration: dotted;
+}
+
+.suscribe-box{
+    background-color: #2d1a2d;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    width:700px;
+    margin:50px auto;
+    font-size: 36px;
+    line-height:1.2;
+    margin-top: 30px;
+}
+
+.from-row{
+    display: flex;
+    align-items:  flex-end;
+    gap:20px;
+}
+
+.input-group{
+    flex:1;
+}
+
+.input-group label {
+    font-size: 14px;
+    display:block;
+    margin-bottom:10px;
+}
+
+.input-group input{
+    width: 100%;
+    background:transparent;
+    border: none;
+    border-bottom: 1px solid white !important;
+    outline: none;
+    color: #faf9f9;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.subscibe-btn{
+    background-color: #ff8a66;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
 }
